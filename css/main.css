@@ -1,0 +1,335 @@
+/*******************
+GENERAL
+*******************/
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.125em;
+  line-height: 1.500em;
+}
+
+#wrapper{
+  max-width:940px;
+  padding:0 5%;
+  margin:0 auto;
+}
+
+a{
+  text-decoration:none;
+}
+
+img{
+  max-width:100%;
+}
+
+h3{
+  margin:0 0 1em 0;
+  font-size:1.4em;
+}
+
+
+/*******************
+HEADING
+*******************/
+
+header{
+  float:left;
+  margin:0 0 30px 0;
+  padding:5px 0 0 0;
+  width:100%;
+}
+
+#logo{
+  text-align:center;
+  margin:0;
+
+}
+
+h1{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin:15px 0;
+  font-size:1.75em;
+  font-weight:normal;
+  line-height:0.8em;
+}
+
+h2{
+  font-size:0.75em;
+  margin:-5px 0 0;
+  font-weight:normal;
+}
+
+
+/*******************
+NAVIGATION
+*******************/
+nav{
+  text-align:center;
+  padding:10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul{
+  list-style:none;
+  margin:0 10px;
+  padding:0;
+}
+
+nav li{
+  display:inline-block;
+}
+
+/*Very important for mobile*/
+nav a{
+  font-weight:800;
+  padding:15px 10px;
+}
+
+/*Nav for Appa Portfolio*/
+#navportfolio{
+  position:fixed;
+  text-align:center;
+  padding:10px 0;
+  margin:0;
+  width:100%;
+}
+
+
+
+
+/*******************
+FOOTER
+*******************/
+
+footer{
+  font-size:0.75em;
+  text-align:center;
+  clear:both;
+  padding-top:50px;
+  opacity: .8;
+
+}
+
+.social-icon{
+  width:24px;
+  height:24px;
+  margin:0 5px;
+}
+
+/*******************
+PAGE: PORTFOLIO
+*******************/
+/*Very important for mobile*/
+/*Galley for oneway and tictactoe app*/
+#gallery{
+  margin:0;
+  padding:0;
+  list-style:none;
+
+}
+
+
+/*Very important for mobile*/
+#gallery li{
+  float:left;
+  width:95%;
+  margin:2.5%;
+  text-align:center;
+
+}
+
+/*Very important for mobile*/
+#gallery li p{
+  margin:0;
+  padding:0;
+  font-size: 0.75em;
+}
+
+
+
+/*******************
+PAGE: ABOUT
+*******************/
+.profile-photo{
+  clear:both;
+  display:block;
+  max-width:150px;
+  margin:0 auto 30px;
+  border-radius:100%;
+}
+
+/*******************
+PAGE: CONTACT
+*******************/
+
+.contact-info{
+  list-style:none;
+  padding:0;
+  margin:0;
+  font-size:0.9em;
+}
+
+.contact-info a{
+  display:block;
+  min-height:20px;
+  background-repeat:no-repeat;
+  background-size:20px 20px;
+  padding:0 0 0 30px;
+  margin:0 0 10px;
+}
+
+.contact-info li.phone a{
+  background-image:url('../img/linkedin.png');
+}
+
+.contact-info li.mail a{
+  background-image:url('../img/mail.png');
+}
+
+.contact-info li.twitter a{
+  background-image:url('../img/twitterlogo.png');
+}
+
+
+
+/*******************
+PAGE: PROFILE
+*******************/
+
+.education{
+    max-width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.edu-title h3{
+    padding:20% 2% 0;
+    margin: 0px auto;
+}
+
+
+.edu-exp-title h3, .educationlist, .experiencelist{
+    padding: 0px 2%;
+    margin: 0px auto;
+}
+
+.educationlist h4, .experiencelist h4{
+     margin-bottom:0;
+}
+.educationlist h5, .experiencelist h5{
+     margin:0;
+}
+
+.experience{
+    clear: both;
+    max-width: 100%;
+    padding-top:30px;
+}
+
+.skillset{
+   padding-top:30px;
+}
+
+
+
+/*******************
+PAGE: ONEWAY,TICTACTOE,STORMY
+*******************/
+#apptitle{
+  padding-top: 34%;
+  text-align:center;
+  font-weight: bold;
+}
+#datepublish{
+  text-align:center;
+}
+
+.rowone{
+  max-width:100%;
+  padding:0;
+  margin:0 auto;
+}
+
+.rowtwo{
+  clear:both;
+  padding-top: 20px;
+}
+
+
+.gridone{
+  width:100%;
+}
+
+.gridone h4{
+  margin:0;
+}
+
+.gridone p{
+  margin:0 0 20px;
+}
+
+.gridtwo p{
+  text-align:center;
+}
+
+
+
+
+/*******************
+COLORS
+*******************/
+
+/* site body*/
+body{
+
+  /*color:#999;*/
+  color: #444;
+
+}
+
+/*green header */
+header{
+  background:#3D454C;
+
+}
+
+/*nav background on mobile */
+nav{
+  background:#3D454C;
+}
+
+/*logo text */
+h1,h2{
+  /*color:#fff;*/
+  color:#FFFFFF;
+}
+
+/* links*/
+a{
+  color:#6ab47b;
+}
+
+/* nav link */
+nav a, nav a:visited{
+  color:#FFFFFF;
+}
+
+/* selected nav link */
+nav a:hover{
+  color:#CCCED0;
+}
+
+nav a.selected{
+  color:#CCCED0;
+  /*background-color:#4D4D4D;*/
+}
+
+/*Linkin and twitter text color*/
+#bold_color{
+  color:black;
+}
+
+/*app portfolio nav color*/
+#navportfolio{
+  background:#3D454C;
+}

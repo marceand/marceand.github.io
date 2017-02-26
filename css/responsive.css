@@ -1,0 +1,147 @@
+@media screen and (min-width:480px){
+
+  /*Style for screen large than of average smartphone screen(large than 480px)*/
+/*******************
+HEADING
+*******************/
+
+  #primary{
+    width:50%;
+    float:left;
+  }
+
+  #secondary{
+    width:40%;
+    float:right;
+  }
+
+
+
+
+/*******************
+PAGE:PORTFOLIO
+*******************/
+
+  #gallery li{
+    width:28.3333%;
+  }
+
+  #gallery li:nth-child(4n){
+    clear:left;
+  }
+  
+
+
+/*******************
+PAGE:ABOUT
+*******************/
+
+  .profile-photo{
+    float:left;
+    margin:0 5% 84px 0;
+  }
+
+
+
+
+/*******************
+PAGE: ONEWAY,TICTACTOE,STORMY
+*******************/
+
+  .gridone{
+    width:46%;
+    float:left;
+    padding:0 2%;
+    }
+
+  .gridtwo{
+    width:34%;
+    float:left;
+    padding:0 8%;
+  }
+  
+  #apptitle{
+     padding-top: 10%;
+   }
+  
+  
+  
+  /*******************
+    PAGE: PROFILE
+    *******************/
+  .educationlist{
+    width: 46%;
+    float: left;
+    }
+  
+}
+
+
+
+@media screen and (min-width:900px){
+    /*Style for desktop*/
+
+/*******************
+HEADER
+*******************/
+
+  nav{
+    float:right;
+    font-size:1.125em;
+    margin-right:5%;
+    text-align:right;
+    width:45%;
+  }
+
+  #logo{
+    float:left;
+    margin-left:5%;
+    text-align:left;
+    width:45%;
+  }
+
+  h1{
+    font-size:2.0em;
+  }
+
+  h2{
+    font-size:0.825em;
+    margin-bottom:20px;
+  }
+
+  header{
+    border-bottom:5px solid #292E33;
+    margin-bottom:60px;
+  }
+
+
+
+
+/*******************
+PAGE: ONEWAY,TICTACTOE,STORMY
+*******************/
+
+  #navportfolio{
+    float:left;
+    font-size:1.125em;
+    text-align:right;
+    width:100%;
+
+  }
+  
+    #apptitle{
+     padding-top: 8%;
+   }
+
+  
+  /*******************
+    PAGE: PROFILE
+   *******************/ 
+  .edu-title h3{
+    padding:10% 2% 0;
+    margin: 0px auto;
+    }
+
+
+
+}
