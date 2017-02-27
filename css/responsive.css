@@ -16,22 +16,6 @@ HEADING
   }
 
 
-
-
-/*******************
-PAGE:PORTFOLIO
-*******************/
-
-  #gallery li{
-    width:28.3333%;
-  }
-
-  #gallery li:nth-child(4n){
-    clear:left;
-  }
-  
-
-
 /*******************
 PAGE:ABOUT
 *******************/
@@ -40,40 +24,6 @@ PAGE:ABOUT
     float:left;
     margin:0 5% 84px 0;
   }
-
-
-
-
-/*******************
-PAGE: ONEWAY,TICTACTOE,STORMY
-*******************/
-
-  .gridone{
-    width:46%;
-    float:left;
-    padding:0 2%;
-    }
-
-  .gridtwo{
-    width:34%;
-    float:left;
-    padding:0 8%;
-  }
-  
-  #apptitle{
-     padding-top: 10%;
-   }
-  
-  
-  
-  /*******************
-    PAGE: PROFILE
-    *******************/
-  .educationlist{
-    width: 46%;
-    float: left;
-    }
-  
 }
 
 
@@ -108,40 +58,4 @@ HEADER
     font-size:0.825em;
     margin-bottom:20px;
   }
-
-  header{
-    border-bottom:5px solid #292E33;
-    margin-bottom:60px;
-  }
-
-
-
-
-/*******************
-PAGE: ONEWAY,TICTACTOE,STORMY
-*******************/
-
-  #navportfolio{
-    float:left;
-    font-size:1.125em;
-    text-align:right;
-    width:100%;
-
-  }
-  
-    #apptitle{
-     padding-top: 8%;
-   }
-
-  
-  /*******************
-    PAGE: PROFILE
-   *******************/ 
-  .edu-title h3{
-    padding:10% 2% 0;
-    margin: 0px auto;
-    }
-
-
-
 }
